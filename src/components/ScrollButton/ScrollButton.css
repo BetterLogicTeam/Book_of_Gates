@@ -1,0 +1,28 @@
+.scroll-up-button,
+.scroll-down-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.scroll-up-button.visible,
+.scroll-down-button.visible {
+  opacity: 1;
+}
+
+.scroll-up-button:hover,
+.scroll-down-button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
