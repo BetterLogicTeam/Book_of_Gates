@@ -11,7 +11,7 @@ import "./secthree.css";
 function Secthree() {
   return (
     <div>
-      <div className="secThree">
+      <div className="secThree"  id="botttom">
         <Grid container justifyContent="center">
           {/* <Grid item xs={12} lg={12} className="mint"> */}
           <MintBtn />

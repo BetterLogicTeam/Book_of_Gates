@@ -22,6 +22,7 @@ const styles = makeStyles(() => ({
 function Secone() {
   const classes = styles();
   return (
+    <>
     <Grid
       item
       className=""
@@ -36,9 +37,13 @@ function Secone() {
      <video autoPlay loop muted className="w-100 h-100" style={{width: "100%", height: "100%"}} sm={{height: "55vh"}}>
       <source src="https://skywalker.infura-ipfs.io/ipfs/QmRxMJugqqa8tLhocesT8aJGqHgpBDuDirwNi6iCiyvv11" type="video/mp4" />
      </video>
-      {/* <VideoPlayer className="video" src={Video} disableBackgroundCover={false} playsInline={false}  styles={{width: "50%", height: "auto", left: "0px"}}/> */}
-      {/* <Video src={video}/> */}
     </Grid>
+    <div></div>
+    
+    <div id="botttom"></div>
+    <br/>
+  <br/>
+    </>
   );
 }
 

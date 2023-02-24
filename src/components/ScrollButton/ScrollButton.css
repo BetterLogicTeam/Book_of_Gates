@@ -1,28 +1,36 @@
-.scroll-up-button,
-.scroll-down-button {
+/* .scroll-button {
   position: fixed;
   bottom: 20px;
-  right: 20px;
-  width: 40px;
+  width: 100px;
   height: 40px;
   border: none;
-  border-radius: 50%;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  font-size: 20px;
-  line-height: 40px;
-  text-align: center;
+  outline: none;
   cursor: pointer;
-  opacity: 0;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  opacity: 0.7;
   transition: opacity 0.2s ease-in-out;
+  z-index: 9999;
 }
 
-.scroll-up-button.visible,
-.scroll-down-button.visible {
+.scroll-button:hover {
   opacity: 1;
 }
 
-.scroll-up-button:hover,
-.scroll-down-button:hover {
-  background-color: rgba(0, 0, 0, 0.7);
+.scroll-up {
+  left: 20px;
+  background-color: #333;
+  color: #fff;
 }
+
+.scroll-down {
+  right: 20px;
+  background-color: #fff;
+  color: #333;
+  border: 2px solid #333;
+} */
+
+/* .scroll-down:hover {
+  background-color
+} */
