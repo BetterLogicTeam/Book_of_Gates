@@ -120,7 +120,9 @@ function Header() {
               lg={2}
               className={classes.logo_grid}
             >
-              <img src="../assets/logo.jpg" alt="#" className={classes.logo} />
+              
+              <img src="/images/logo.png" alt="#" className={classes.logo} />
+              
             </Grid>
             <Grid item xs={6} sm={4} md={3} lg={3}>
               {/* NESTED GRID */}
